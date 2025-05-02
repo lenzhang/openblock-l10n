@@ -32,7 +32,19 @@ let defaultMessages = glob.sync(MESSAGES_PATTERN)
     .reduce((collection, descriptors) => {
         descriptors.forEach(({id, defaultMessage, description}) => {
             if (Object.prototype.hasOwnProperty.call(collection, id)) {
-                throw new Error(`Duplicate message id: ${id}`);
+                const existing = collection[id];
+                const isSameMessage = existing.message === defaultMessage;
+                const isSameDescription = existing.description === description;
+
+                if (!isSameMessage || !isSameDescription) {
+                    throw new Error(
+                        `Duplicate message id with different content: ${id}\n` +
+                        `Existing: message="${existing.message}", description="${existing.description}"\n` +
+                        `New: message="${defaultMessage}", description="${description}"`
+                    );
+                }
+                // If it's a duplicate with same content, silently skip
+                return;
             }
 
             collection[id] = {message: defaultMessage, description: description};
