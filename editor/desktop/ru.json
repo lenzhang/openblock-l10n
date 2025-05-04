@@ -1,14 +1,15 @@
 {
     "index.cameraPermissionDeniedMessage": "Отказано в разрешении на использование камеры. OpenBlock не сможет делать фото или использовать блоки распознавания видео.",
     "index.cameraPermissionDeniedTitle": "Доступ к камере запрещен",
+    "index.connectionTimeOut": "Время ожидания соединения истекло. Пожалуйста, проверьте состояние сети и попробуйте снова.",
+    "index.continueMainUpdate": "Продолжить проверку обновлений основной программы",
     "index.darwinPermissionDeniedInstructions": "Чтобы изменить разрешения OpenBlock, установите флажок «Безопасность и конфиденциальность» в Системных настройках.",
     "index.failedLoadProject": "Не удалось загрузить проект из файла:",
-    "index.initialResourcesFailedTitle": "Не удалось инициализировать ресурсы",
-    "index.initializeResourcesFailed": "Не удалось инициализировать ресурсы",
     "index.internetDisconnectedError": "Интернет отключен, проверьте подключение к Интернету и повторите попытку.",
     "index.leave": "Выйти",
     "index.microphonePermissionDeniedMessage": "Отказано в разрешении на использование микрофона. OpenBlock не сможет записывать звуки или определять громкость.",
     "index.microphonePermissionDeniedTitle": "Отказано в доступе к микрофону",
+    "index.openDownloadLink": "Открыть страницу загрузки",
     "index.permissionDeniedInstructions": "Чтобы изменить разрешения OpenBlock, проверьте настройки вашей системы и перезапустите OpenBlock.",
     "index.permissionDeniedMessage": "Разрешение было отклонено.",
     "index.permissionDeniedTitle": "Разрешение отклонено",
@@ -16,6 +17,9 @@
     "index.questionLeaveDetail": "Любые несохраненные изменения будут потеряны.",
     "index.saveFailed": "Не удалось сохранить:",
     "index.saveFailedTitle": "Не удалось сохранить проект",
+    "index.skipAutoUpdateForMainProgram": "Пропустить проверку обновлений основной программы?",
+    "index.skipAutoUpdateForMainProgramDetail": "Из-за нестабильного доступа к серверу обновлений в Китае рекомендуется пропустить проверку обновлений основной программы. Обновления расширений будут проверяться как обычно. Чтобы обновить основную программу вручную, нажмите «Открыть страницу загрузки».",
+    "index.skipMainUpdate": "Пропустить обновление основной программы",
     "index.stay": "Остаться",
     "index.systemRestartRequired": "Установка завершена, пожалуйста, перезагрузите систему."
 }

@@ -1,14 +1,15 @@
 {
     "index.cameraPermissionDeniedMessage": "Permission to use the camera has been denied. OpenBlock will not be able to take a photo or use video sensing blocks.",
     "index.cameraPermissionDeniedTitle": "Camera Permission Denied",
+    "index.connectionTimeOut": "Connection timed out, please check your network status and try again.",
+    "index.continueMainUpdate": "Continue Main Program Update Check",
     "index.darwinPermissionDeniedInstructions": "To change OpenBlock permissions, please check \"Security & Privacy\" in System Preferences.",
     "index.failedLoadProject": "Could not load project from file:",
-    "index.initialResourcesFailedTitle": "Failed to initialize resources",
-    "index.initializeResourcesFailed": "Initialize resources failed",
     "index.internetDisconnectedError": "Internet disconnected, please verify your internet connection and try again.",
     "index.leave": "Leave",
     "index.microphonePermissionDeniedMessage": "Permission to use the microphone has been denied. OpenBlock will not be able to record sounds or detect loudness.",
     "index.microphonePermissionDeniedTitle": "Microphone Permission Denied",
+    "index.openDownloadLink": "Open Download Page",
     "index.permissionDeniedInstructions": "To change OpenBlock permissions, please check your system settings and restart OpenBlock.",
     "index.permissionDeniedMessage": "A permission has been denied.",
     "index.permissionDeniedTitle": "Permission Denied",
@@ -16,6 +17,9 @@
     "index.questionLeaveDetail": "Any unsaved changes will be lost.",
     "index.saveFailed": "Save failed:",
     "index.saveFailedTitle": "Failed to save project",
+    "index.skipAutoUpdateForMainProgram": "Skip checking for main program updates?",
+    "index.skipAutoUpdateForMainProgramDetail": "Due to unstable access to the update server in China, it is recommended to skip checking for main program updates. Extension updates will still be checked normally. To update the main program manually, please click \"Open Download Page\".",
+    "index.skipMainUpdate": "Skip Main Program Update",
     "index.stay": "Stay",
     "index.systemRestartRequired": "Installation is complete, please restart the system."
 }
