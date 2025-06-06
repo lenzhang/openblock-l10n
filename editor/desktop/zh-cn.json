@@ -19,6 +19,7 @@
     "index.saveFailedTitle": "保存项目失败",
     "index.skipAutoUpdateForMainProgram": "跳过主程序更新检查？",
     "index.skipAutoUpdateForMainProgramDetail": "由于中国地区无法稳定访问更新服务器，建议跳过主程序更新检查。扩展的更新仍将正常检查。如需手动更新主程序，请点击“打开下载页面”。",
+    "index.skipAutoUpdateForMainProgramDetailMac": "由于 macOS 安装程序体积较大，主程序不支持自动更新。您可以跳过主程序更新，或点击“打开下载页面”手动下载最新版本。",
     "index.skipMainUpdate": "跳过主程序更新",
     "index.stay": "留下",
     "index.systemRestartRequired": "安装完成，请重启系统。"

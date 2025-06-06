@@ -19,6 +19,7 @@
     "index.saveFailedTitle": "Failed to save project",
     "index.skipAutoUpdateForMainProgram": "Skip checking for main program updates?",
     "index.skipAutoUpdateForMainProgramDetail": "Due to unstable access to the update server in China, it is recommended to skip checking for main program updates. Extension updates will still be checked normally. To update the main program manually, please click \"Open Download Page\".",
+    "index.skipAutoUpdateForMainProgramDetailMac": "Due to the large size of the macOS installer, automatic update of the main program is not supported. You can skip the main program update, or click \"Open Download Page\" to manually download the latest version.",
     "index.skipMainUpdate": "Skip Main Program Update",
     "index.stay": "Stay",
     "index.systemRestartRequired": "Installation is complete, please restart the system."
